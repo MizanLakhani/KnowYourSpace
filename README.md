@@ -1,22 +1,30 @@
-# 🚀 KnowYourSpace
+# 🌌 KnowYourSpace
 
-**KnowYourSpace** is an AI-powered space exploration platform that brings real-time astronomical data, interactive learning, and intelligent assistance into a single web application. It combines NASA's public APIs with Google's Gemini AI to help users discover planets, galaxies, space missions, and daily cosmic events in an engaging and informative way.
-
-🌐 **Live Demo:** https://knowyourspace.onrender.com/
+A modern **Space Exploration & Learning Platform** featuring a stunning cosmic UI, real-time NASA data, AI-powered space assistance, celestial object exploration, and live astronomical events.
 
 ---
 
-## 📖 Features
+## 🌐 Live Demo
 
-- 🌌 Explore the universe through an intuitive interface
-- 🤖 AI-powered space assistant using Gemini AI
-- 📸 NASA Astronomy Picture of the Day (APOD)
-- 🚀 Latest Mars Rover images
-- ☄️ Near-Earth Object (Asteroid) tracking
-- 🛰️ Space mission and astronomy information
-- 🌍 Real-time space-related data from NASA APIs
-- 🔍 Intelligent search for celestial objects
-- 📱 Responsive design for desktop and mobile
+🔗 **Website:** https://knowyourspace.onrender.com/
+
+---
+
+## ✨ Features
+
+### 🎨 Modern Cosmic UI
+- 🌌 Dark space-themed interface with animated stars
+- 🎨 Glassmorphism-inspired design
+- 🌈 Gradient typography and modern color palette
+- 📱 Fully responsive across all devices
+- ⚡ Smooth animations and interactive elements
+
+### 🚀 Core Features
+- 🛰️ Real-time NASA astronomical data
+- 🪐 Explore planets, stars, galaxies, and nebulae
+- 🌠 Live sky events and ISS flyovers
+- 🤖 AI-powered Space Assistant using Google Gemini
+- 🌤️ Weather and stargazing visibility information
 
 ---
 
@@ -26,196 +34,155 @@
 - HTML5
 - CSS3
 - JavaScript
+- Font Awesome
+- Google Fonts (Orbitron & Roboto)
 
 ### Backend
-- Python
-- Flask
-
-### APIs
+- Python Flask
 - NASA Open APIs
-- Google Gemini AI API
-
-### Deployment
-- Render
-
----
-
-## 📂 Project Structure
-
-```
-KnowYourSpace/
-│── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-│── templates/
-│
-│── app.py
-│── requirements.txt
-│── README.md
-│── .env
-```
+- Google Gemini API
+- Open Meteo API
+- Supabase
 
 ---
 
-## ⚙️ Installation
+## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Prerequisites
+
+- Python 3.8 or later
+- pip
+- Modern web browser
+
+### Installation
+
+Clone the repository
 
 ```bash
-git clone https://github.com/MizanLakhani/KnowYourSpace.git
+git clone <repository-url>
 cd KnowYourSpace
 ```
 
-### 2. Create Virtual Environment
+Create a `.env` file
 
 ```bash
-python -m venv venv
+copy env.example .env
 ```
 
-Activate the environment:
+Add your API keys
 
-**Windows**
-```bash
-venv\Scripts\activate
+```env
+NASA_API_KEY=your_nasa_api_key
+GEMINI_API_KEY=your_gemini_api_key
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_supabase_key
 ```
 
-**Linux / macOS**
-```bash
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Create a `.env` File
-
-```env
-NASA_API_KEY=YOUR_NASA_API_KEY
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
-### 5. Run the Application
+Run the application
 
 ```bash
 python app.py
 ```
 
-Visit:
+Open your browser and visit
 
 ```
-http://127.0.0.1:5000
-```
-
----
-
-## 📷 Screenshots
-
-### Home Page
-
-> Add screenshot here
-
-```
-screenshots/home.png
-```
-
-### AI Assistant
-
-> Add screenshot here
-
-```
-screenshots/chatbot.png
-```
-
-### NASA APOD
-
-> Add screenshot here
-
-```
-screenshots/apod.png
-```
-
-### Mars Rover Images
-
-> Add screenshot here
-
-```
-screenshots/mars.png
+http://localhost:5000
 ```
 
 ---
 
-## 🔮 Future Enhancements
+## 📂 Project Modules
 
-- User authentication
-- Personalized dashboard
-- ISS live location tracker
-- 3D Solar System visualization
-- Space quiz and achievements
-- Telescope observation planner
-- Dark/Light theme
-- Bookmark favorite discoveries
-- Weather conditions for astronomical observation
-- Multi-language support
+### 🏠 Home
+- Hero section
+- Search celestial objects
+- Featured planets and galaxies
+- Quick navigation
+
+### 🔭 Explore
+- Browse planets
+- Explore stars
+- Discover galaxies
+- Learn about nebulae
+
+### 🌠 Events
+- Upcoming astronomical events
+- ISS flyovers
+- Meteor showers
+- Planetary conjunctions
+
+### 🤖 AI Assistant
+- Ask space-related questions
+- AI-generated explanations
+- Interactive chat experience
 
 ---
 
-## 📊 APIs Used
+## 🔗 APIs Used
 
-- NASA APOD API
-- NASA Mars Rover Photos API
-- NASA Near Earth Object API
-- Google Gemini API
+### NASA APIs
+- Astronomy Picture of the Day (APOD)
+- Near Earth Object Web Service (NeoWs)
+- Mars Rover Photos
+
+### Google Gemini API
+- AI-powered space assistant
+- Intelligent question answering
+
+### Open Meteo API
+- Weather forecasting
+- Stargazing visibility conditions
+
+---
+
+## 🎨 Design System
+
+### Typography
+- **Orbitron** – Headings
+- **Roboto** – Body Text
+
+### UI Highlights
+- Glassmorphism cards
+- Gradient text
+- Dark cosmic theme
+- Responsive card layout
+- Smooth animations and transitions
+
+---
+
+## 🚀 Future Enhancements
+
+- 🌍 Interactive 3D Solar System
+- 🛰️ Live satellite tracking
+- 👥 User accounts and saved favorites
+- 📱 Mobile application
+- 📊 Advanced astronomical analytics
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push to your branch
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request
-
----
-
-## 👨‍💻 Author
-
-**Mizan Lakhani**
-
-- GitHub: https://github.com/MizanLakhani
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
-## ⭐ Support
+## 🙏 Acknowledgements
 
-If you found this project helpful, consider giving it a **⭐ Star** on GitHub. It helps the project reach more developers and motivates future improvements.
-
-Happy Exploring! 🌌🚀
+- NASA Open APIs
+- Google Gemini
+- Open Meteo
+- Font Awesome
+- Google Fonts
